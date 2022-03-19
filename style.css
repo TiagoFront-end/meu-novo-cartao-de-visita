@@ -1,0 +1,84 @@
+* {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+overflow-y: scroll; }
+header{
+    background-color: red;
+    font-weight: 400;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    text-align: center;
+    background-image: url(https://tm.ibxk.com.br/2021/08/10/10181814794027.jpg?ims=1200x675);
+    background-repeat: repeat;
+    width: 100%;
+    background-size: COVER;
+    background-color: #452acb;
+    height: 100vh;
+    position: absolute;
+}
+
+section figure img {
+    border-radius: 50%;
+    width: 143px;
+    height: 143px;
+}
+
+figure {
+    padding: 64px;
+}
+
+figcaption {
+    font-weight: 600;
+    font-size: 20px;
+  
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.txt:hover{
+    color:#c21;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 3s;
+
+}
+ul {
+    margin: 0 auto;
+    width: 30%;
+}
+
+li {
+    background-color: #FFFFFF;
+    box-shadow: 0PX, 4PX,4PX rgba(0,0,0,0.15);
+    border-radius: 0px 32px 0px 0px;
+    padding: 19px 0;
+    margin: 9px 0;
+    
+   
+  
+}
+
+li:hover{
+   background-color: #452acb;
+    cursor: pointer;
+  transition: 2s all linear;
+}
+
+i {
+    padding-right: 4px;
+}
+
+footer {
+    text-align: center;
+   background-color: #c21;
+}
